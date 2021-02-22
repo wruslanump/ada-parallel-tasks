@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project>
+    <vfs_file />
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>/home/wruslan/github-ump/ada-parallel-tasks/ada_parallel_tasks.gpr</vfs_file>
+    </file_marker>
+    <file_marker column=" 82" line=" 29" >
+      <vfs_project />
+      <vfs_file>/home/wruslan/github-ump/ada-parallel-tasks/ada_parallel_tasks.gpr</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/wruslan/github-ump/ada-parallel-tasks/ada_parallel_tasks.gpr</vfs_project>
+      <vfs_file>/home/wruslan/github-ump/ada-parallel-tasks/src/main_ada_parallel_tasks.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 28" line=" 118" >
+      <vfs_project>/home/wruslan/github-ump/ada-parallel-tasks/ada_parallel_tasks.gpr</vfs_project>
+      <vfs_file>/home/wruslan/github-ump/ada-parallel-tasks/src/main_ada_parallel_tasks.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/wruslan/github-ump/ada-parallel-tasks/ada_parallel_tasks.gpr</vfs_project>
+      <vfs_file>/home/wruslan/github-ump/ada-parallel-tasks/src/pkg-ada-task-level1/pkg_ada_task_level1.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 27" line=" 16" >
+      <vfs_project>/home/wruslan/github-ump/ada-parallel-tasks/ada_parallel_tasks.gpr</vfs_project>
+      <vfs_file>/home/wruslan/github-ump/ada-parallel-tasks/src/pkg-ada-task-level1/pkg_ada_task_level1.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/wruslan/github-ump/ada-parallel-tasks/ada_parallel_tasks.gpr</vfs_project>
+      <vfs_file>/home/wruslan/github-ump/ada-parallel-tasks/src/pkg-ada-task-level1/pkg_ada_task_level1.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/wruslan/github-ump/ada-parallel-tasks/ada_parallel_tasks.gpr</vfs_project>
+      <vfs_file>/home/wruslan/github-ump/ada-parallel-tasks/src/pkg-ada-dtstamp/pkg_ada_dtstamp.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 1" line=" 1" >
+      <vfs_project>/home/wruslan/github-ump/ada-parallel-tasks/ada_parallel_tasks.gpr</vfs_project>
+      <vfs_file>/home/wruslan/github-ump/ada-parallel-tasks/src/pkg-ada-dtstamp/pkg_ada_dtstamp.ads</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>
