@@ -34,7 +34,7 @@ begin
    ATIO.New_Line;
    
    -- Execute tasks from a package
-   PATL1.exec_three_tasks; 
+   PATL1.exec_speed_monitor_tasks; 
       
    ATIO.New_Line; PADTS.dtstamp; ATIO.Put_Line ("Alhamdulillah 3 times WRY");
 -- ========================================================   

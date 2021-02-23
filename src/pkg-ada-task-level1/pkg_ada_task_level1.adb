@@ -9,54 +9,61 @@ is
    package PADTS renames pkg_ada_dtstamp;
 
    -- =======================================
-   procedure exec_three_tasks 
+   procedure exec_speed_monitor_tasks 
    -- =======================================   
    is
-      task type tsktyp_01;
-      task type tsktyp_02;
-      task type tsktyp_03;
+      -- Without using task type below (WORKS)
+      -- ====================================
+      task task_display_speed;
+      task task_read_speed;
+      task task_monitor_overspeed;
       
-      the_task_01 : tsktyp_01;
-      the_task_02 : tsktyp_02;
-      the_task_03 : tsktyp_03;
-     
+      -- Using task type below (ALSO WORKS)
+      -- =====================================
+      -- task type task_display_speed;
+      -- task type task_read_speed;
+      -- task type task_monitor_overspeed;
+      -- display_speed     : task_display_speed;
+      -- read_speed        : task_read_speed;
+      -- monitor_overspeed : task_monitor_overspeed;
+      
      -- =====================     
-        task body tsktyp_01 is
+        task body task_display_speed is
      -- =====================   
         begin
           -- loop  -- RUN FOREVER
           for I in 1..10 loop
-              PADTS.dtstamp; ATIO.Put_Line("Running tsktyp_01 --> tsk_display_speed(100 msec cycle)");
+              PADTS.dtstamp; ATIO.Put_Line("Running --> task_display_speed(100 msec cycle)");
               PADTS.exec_delay_msec (100);
           end loop;
-        end tsktyp_01;
+        end task_display_speed;
         
     -- =====================     
-        task body tsktyp_02 is
+        task body task_read_speed is
     -- =====================    
         begin
           -- loop  -- RUN FOREVER
           for I in 1..10 loop
-              PADTS.dtstamp; ATIO.Put_Line("Running tsktyp_02 --> tsk_read_speed(250 msec cycle) ");
+              PADTS.dtstamp; ATIO.Put_Line("Running --> task_read_speed(250 msec cycle) ");
               PADTS.exec_delay_msec (250);
           end loop;
-        end tsktyp_02;    
+        end task_read_speed;    
         
     -- =====================     
-        task body tsktyp_03 is
+        task body task_monitor_overspeed is
     -- =====================    
         begin
           -- loop  -- RUN FOREVER
           for I in 1..10 loop
-              PADTS.dtstamp; ATIO.Put_Line("Running tsktyp_03 --> tsk_monitor_engine(500 msec cycle)");
+              PADTS.dtstamp; ATIO.Put_Line("Running --> task_monitor_overspeed(500 msec cycle)");
               PADTS.exec_delay_msec (500);
           end loop;
-        end tsktyp_03;   
-   
+        end task_monitor_overspeed;   
+   -- =====================================================
    begin 
       null;
   
-   end exec_three_tasks;
+   end exec_speed_monitor_tasks;
 -- ========================================================
 begin
     null;

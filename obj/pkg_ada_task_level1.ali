@@ -15,7 +15,7 @@ RV NO_ELABORATION_CODE
 RV SPARK_05
 RV MAX_TASKS=1+
 
-U pkg_ada_task_level1%b	pkg_ada_task_level1.adb	cdacb816 OO PK IL
+U pkg_ada_task_level1%b	pkg_ada_task_level1.adb	865150e6 OO PK IL
 W ada%s			ada.ads			ada.ali
 Z ada.real_time%s	a-reatim.adb		a-reatim.ali
 Z ada.tags%s		a-tags.adb		a-tags.ali
@@ -28,7 +28,7 @@ Z system.task_info%s	s-tasinf.adb		s-tasinf.ali
 Z system.tasking%s	s-taskin.adb		s-taskin.ali
 Z system.tasking.stages%s  s-tassta.adb		s-tassta.ali
 
-U pkg_ada_task_level1%s	pkg_ada_task_level1.ads	e1ba12b4 EE NE OO PK IL
+U pkg_ada_task_level1%s	pkg_ada_task_level1.ads	a6a8c7b5 EE NE OO PK IL
 
 D ada.ads		20200312110721 76789da1 ada%s
 D a-charac.ads		20200312110721 2d3ec45b ada.characters%s
@@ -48,8 +48,8 @@ D interfac.ads		20200312110721 5ab55268 interfaces%s
 D i-c.ads		20200312110721 5421119b interfaces.c%s
 D i-cstrea.ads		20200312110721 e53d8b8e interfaces.c_streams%s
 D pkg_ada_dtstamp.ads	20210221081420 f15ab596 pkg_ada_dtstamp%s
-D pkg_ada_task_level1.ads  20210222042553 e1ba12b4 pkg_ada_task_level1%s
-D pkg_ada_task_level1.adb  20210222042716 5551ac6e pkg_ada_task_level1%b
+D pkg_ada_task_level1.ads  20210223053144 a6a8c7b5 pkg_ada_task_level1%s
+D pkg_ada_task_level1.adb  20210223055317 59be919f pkg_ada_task_level1%b
 D system.ads		20200312110721 4635ec04 system%s
 D s-atacco.ads		20200312110721 4c36d12f system.address_to_access_conversions%s
 D s-atocou.ads		20200312110721 b45c2d8d system.atomic_counters%s
@@ -84,26 +84,23 @@ X 1 ada.ads
 16K9*Ada 20e8 20|1r6 8r26
 X 13 a-textio.ads
 49K13*Text_IO 471e16 20|1w10 8r30
-263U14*Put_Line 20|29s35 40s35 51s35
+263U14*Put_Line 20|36s35 47s35 58s35
 X 18 pkg_ada_dtstamp.ads
 10K9*pkg_ada_dtstamp 31e20 20|2w6 9r26
-17U14*dtstamp 20|29s21 40s21 51s21
-23U14*exec_delay_msec 20|30s21 41s21 52s21
+17U14*dtstamp 20|36s21 47s21 58s21
+23U14*exec_delay_msec 20|37s21 48s21 59s21
 X 19 pkg_ada_task_level1.ads
-4K9*pkg_ada_task_level1 11l5 11e24 20|5b14 64l5 64t24
-8U14*exec_three_tasks 20|12b14 59l8 59t24
+4K9*pkg_ada_task_level1 11l5 11e24 20|5b14 71l5 71t24
+8U14*exec_speed_monitor_tasks 20|12b14 66l8 66t32
 X 20 pkg_ada_task_level1.adb
-8K12 ATIO=8:30 29r30 40r30 51r30
-9K12 PADTS=9:26 29r15 30r15 40r15 41r15 51r15 52r15
-15T17 tsktyp_01 19r21 24b19 32l13 32t22
-16T17 tsktyp_02 20r21 35b19 43l13 43t22
-17T17 tsktyp_03 21r21 46b19 54l13 54t22
-19t7 the_task_01{15T17}
-20t7 the_task_02{16T17}
-21t7 the_task_03{17T17}
-28i15 I{integer}
-39i15 I{integer}
-50i15 I{integer}
+8K12 ATIO=8:30 36r30 47r30 58r30
+9K12 PADTS=9:26 36r15 37r15 47r15 48r15 58r15 59r15
+17t12 task_display_speed 31b19 39l13 39t31
+18t12 task_read_speed 42b19 50l13 50t28
+19t12 task_monitor_overspeed 53b19 61l13 61t35
+35i15 I{integer}
+46i15 I{integer}
+57i15 I{integer}
 X 37 s-stausa.ads
 203U14*Initialize 204i<c,__gnat_stack_usage_initialize>22
 268U14*Output_Results 272i<c,__gnat_stack_usage_output_results>22

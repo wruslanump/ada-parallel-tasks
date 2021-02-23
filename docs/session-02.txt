@@ -1,0 +1,38 @@
+/home/wruslan/github-ump/ada-parallel-tasks/exec/main_ada_parallel_tasks.adx
+2021-02-23 05:54:30.81298083164 Bismillah 3 times WRY
+2021-02-23 05:54:30.81298169399 Running inside GNAT Studio Community
+
+2021-02-23 05:54:30.81298654276 Running --> task_monitor_overspeed(500 msec cycle)
+2021-02-23 05:54:30.812021-02-23 05:54:30.81298700463 Running --> task_read_speed(250 msec cycle) 
+298690024 Running --> task_display_speed(100 msec cycle)
+2021-02-23 05:54:30.91398930366 Running --> task_display_speed(100 msec cycle)
+2021-02-23 05:54:31.01499082392 Running --> task_display_speed(100 msec cycle)
+2021-02-23 05:54:31.06548898935 Running --> task_read_speed(250 msec cycle) 
+2021-02-23 05:54:31.11599268152 Running --> task_display_speed(100 msec cycle)
+2021-02-23 05:54:31.21699445178 Running --> task_display_speed(100 msec cycle)
+2021-02-23 05:54:31.31798850134 Running --> task_monitor_overspeed(500 msec cycle)
+2021-02-23 05:54:31.31799052520 Running --> task_read_speed(250 msec cycle) 
+2021-02-23 05:54:31.32799595059 Running --> task_display_speed(100 msec cycle)
+2021-02-23 05:54:31.42899771477 Running --> task_display_speed(100 msec cycle)
+2021-02-23 05:54:31.52999974918 Running --> task_display_speed(100 msec cycle)
+2021-02-23 05:54:31.56049230404 Running --> task_read_speed(250 msec cycle) 
+2021-02-23 05:54:31.62100143138 Running --> task_display_speed(100 msec cycle)
+2021-02-23 05:54:31.72200314038 Running --> task_display_speed(100 msec cycle)
+2021-02-23 05:54:31.81299065932 Running --> task_monitor_overspeed(500 msec cycle)
+2021-02-23 05:54:31.81299408073 Running --> task_read_speed(250 msec cycle) 
+2021-02-23 05:54:32.07549624117 Running --> task_read_speed(250 msec cycle) 
+2021-02-23 05:54:32.31799261657 Running --> task_monitor_overspeed(500 msec cycle)
+2021-02-23 05:54:32.32799796786 Running --> task_read_speed(250 msec cycle) 
+2021-02-23 05:54:32.57049969178 Running --> task_read_speed(250 msec cycle) 
+2021-02-23 05:54:32.81299443042 Running --> task_monitor_overspeed(500 msec cycle)
+2021-02-23 05:54:32.82300138414 Running --> task_read_speed(250 msec cycle) 
+2021-02-23 05:54:33.07550349601 Running --> task_read_speed(250 msec cycle) 
+2021-02-23 05:54:33.32799610592 Running --> task_monitor_overspeed(500 msec cycle)
+2021-02-23 05:54:33.82299791649 Running --> task_monitor_overspeed(500 msec cycle)
+2021-02-23 05:54:34.32799999139 Running --> task_monitor_overspeed(500 msec cycle)
+2021-02-23 05:54:34.82300143854 Running --> task_monitor_overspeed(500 msec cycle)
+2021-02-23 05:54:35.32800353078 Running --> task_monitor_overspeed(500 msec cycle)
+
+2021-02-23 05:54:35.82300538939 Alhamdulillah 3 times WRY
+[2021-02-23 13:54:35] process terminated successfully, elapsed time: 05.20s
+
